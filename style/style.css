@@ -1,0 +1,72 @@
+.nav-bar {
+  margin-bottom: 20px;
+}
+
+.nav-bar .navbar-brand {
+  color: #F9F9F9;
+}
+
+.nav-bar .nav-item a {
+  color: #7F8487;
+}
+
+.nav-bar .nav-item.active a {
+  color: #F9F9F9;
+}
+
+.nav-bar .nav-item a:hover {
+  border-bottom: 1px solid #F9F9F9;
+}
+
+.card-body {
+  background-color: #EEEEEE;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.heading h1 {
+  font-size: 3em;
+  padding-top: 20px;
+  font-weight: 200;
+}
+
+.heading .btn.btn-primary {
+  margin-bottom: 20px;
+}
+
+.cards {
+  margin-bottom: 20px;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.cards .card-body.color {
+  background-color: #F9F9F9;
+  text-align: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 100px;
+  background-color: #292b2c;
+}
+
+footer p {
+  color: #F9F9F9;
+}
+/*# sourceMappingURL=style.css.map */
