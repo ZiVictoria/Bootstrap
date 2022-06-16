@@ -4,10 +4,12 @@
 
 .nav-bar .navbar-brand {
   color: #F9F9F9;
+  font-size: 2vw;
 }
 
-.nav-bar .nav-item a {
+.nav-bar .nav-link {
   color: #7F8487;
+  font-size: 1.5vw;
 }
 
 .nav-bar .nav-item.active a {
@@ -26,9 +28,14 @@
   margin-bottom: 20px;
 }
 
-.heading h1 {
-  font-size: 3em;
+.heading .card-title {
+  font-size: 5vw;
   padding-top: 20px;
+  font-weight: 200;
+}
+
+.heading .card-text {
+  font-size: 1.5vw;
   font-weight: 200;
 }
 
@@ -53,6 +60,18 @@
   text-align: center;
 }
 
+.cards .card-body.color .card-title {
+  font-size: 1.5vw;
+}
+
+.cards .card-body.color .card-text {
+  font-size: 1vw;
+}
+
+.btn.btn-primary {
+  font-size: 1.5vw;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,5 +87,6 @@ footer {
 
 footer p {
   color: #F9F9F9;
+  font-size: 1vw;
 }
 /*# sourceMappingURL=style.css.map */

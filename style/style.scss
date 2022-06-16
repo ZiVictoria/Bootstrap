@@ -2,9 +2,11 @@
     margin-bottom: 20px;
     .navbar-brand{
         color: #F9F9F9;
+        font-size: 2vw;
     }
-.nav-item a{
+.nav-link{
     color: #7F8487;
+    font-size: 1.5vw;
 }
 .nav-item.active a{
     color: #F9F9F9; 
@@ -22,11 +24,16 @@
 
 .heading{
     margin-bottom: 20px;
-    h1{
-        font-size: 3em;
+    .card-title{
+        font-size: 5vw;
         padding-top: 20px;
         font-weight: 200;
     }
+    .card-text{
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+
     .btn.btn-primary{
         margin-bottom: 20px;
     }
@@ -40,7 +47,18 @@
     .card-body.color{
         background-color: #F9F9F9;
         text-align: center;
+        .card-title{
+            font-size: 1.5vw;
+        }
+        .card-text{
+            font-size: 1vw;
+        }
     }
+    
+}
+
+.btn.btn-primary{
+    font-size: 1.5vw;
 }
 
 footer{
@@ -51,6 +69,7 @@ footer{
     background-color: #292b2c;
     p{
         color: #F9F9F9;
+        font-size: 1vw;
     }
 }
 
